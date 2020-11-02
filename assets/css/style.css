@@ -22,6 +22,9 @@ body {
 .menu-color-about {
     background-color: #e7971f;
 }
+.menu-color-contact {
+    background-color: #e7971f;
+}
 
 /*-------logo----------*/
 
@@ -32,6 +35,8 @@ body {
     background-size: contain;
     min-height: 75px;
     margin: 20px 10px 5px 20px;
+    float: left;
+
     
 }
 
@@ -46,6 +51,7 @@ body {
 #nav li {
     font-size:  25px;
     font-weight: 300;
+    text-decoration: none;
 }
 
 a {
@@ -53,4 +59,5 @@ a {
     letter-spacing: 5px;
     color: #777777;
     text-decoration: none;
+    text-transform: uppercase;
 }
