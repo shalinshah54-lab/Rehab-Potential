@@ -52,6 +52,9 @@ body {
     font-size:  25px;
     font-weight: 300;
     text-decoration: none;
+    width: 100%;
+    height: 50px;
+
 }
 
 a {
@@ -60,4 +63,10 @@ a {
     color: #777777;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.appointment {
+    background-color: #747474;
+    float: right;
+
 }
