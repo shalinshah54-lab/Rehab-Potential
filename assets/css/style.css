@@ -42,6 +42,10 @@ body {
 
 /*--------------Navigation---------*/
 
+.row {
+    margin: 0;
+}
+
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
@@ -55,7 +59,7 @@ body {
     font-weight: 300;
     text-decoration: none;
     width: 100%;
-    height: 50px;
+    height: 70px;
 
 }
 
@@ -78,9 +82,9 @@ body {
 /*--------------hero-image---------*/
 
 #hero-image {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url("../images/physicaltherapy.jpg") no-repeat center center;
-    margin-top: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
 }
